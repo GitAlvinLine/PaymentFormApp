@@ -56,15 +56,47 @@
 		DB923A0925242F04009BF975 /* TakeMyMoney */ = {
 			isa = PBXGroup;
 			children = (
+				DB923A2225242F29009BF975 /* Service */,
+				DB923A2125242F23009BF975 /* Model */,
+				DB923A2025242F1D009BF975 /* View */,
+				DB923A1F25242F12009BF975 /* Controller */,
 				DB923A0A25242F04009BF975 /* AppDelegate.swift */,
 				DB923A0C25242F04009BF975 /* SceneDelegate.swift */,
-				DB923A0E25242F04009BF975 /* ViewController.swift */,
 				DB923A1025242F04009BF975 /* Main.storyboard */,
 				DB923A1325242F07009BF975 /* Assets.xcassets */,
 				DB923A1525242F07009BF975 /* LaunchScreen.storyboard */,
 				DB923A1825242F07009BF975 /* Info.plist */,
 			);
 			path = TakeMyMoney;
+			sourceTree = "<group>";
+		};
+		DB923A1F25242F12009BF975 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DB923A0E25242F04009BF975 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DB923A2025242F1D009BF975 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB923A2125242F23009BF975 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB923A2225242F29009BF975 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
